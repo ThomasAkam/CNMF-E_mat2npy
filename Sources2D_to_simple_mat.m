@@ -3,7 +3,7 @@ function Sources2D_to_simple_mat(file_name)
     % only be opened in matlab with the Sources2D class definition file in the matlab 
     % path. This function converts these files into a basic .mat file that can be 
     % opened in Python using scipy.io.loadmat.
-    % (c) Thomas Akam 2019.
+    % (c) Thomas Akam 2019. GPL-3 open source licence.
 
     load(file_name, 'neuron')
 
